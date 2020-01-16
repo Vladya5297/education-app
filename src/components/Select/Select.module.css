@@ -1,0 +1,8 @@
+.select {
+    padding: 7px;
+    border: solid 1px black;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}

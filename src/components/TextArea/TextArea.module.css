@@ -1,0 +1,22 @@
+.wrapper {
+    position: relative;
+    margin: 5px;
+}
+
+.textArea {
+    width: 200px;
+    padding: 7px 20px 7px 7px;
+    border: solid 1px black;
+    outline: none;
+}
+
+.cross {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}

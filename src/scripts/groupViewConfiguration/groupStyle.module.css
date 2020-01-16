@@ -1,0 +1,33 @@
+.wrapper {
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 130px);
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.group {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: solid 1px black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.slot {
+    padding: 5px;
+    margin: 5px 0;
+    border: solid 1px black;
+}

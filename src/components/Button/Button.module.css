@@ -1,0 +1,9 @@
+.wrapper {
+    min-width: 50px;
+    padding: 8px;
+    border: solid 1px black;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+}
